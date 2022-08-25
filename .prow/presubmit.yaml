@@ -1,0 +1,7 @@
+presubmits:
+- name: test-presubmit
+  always_run: true
+  spec:
+    containers:
+    - image: gcc
+      command: ["g++","-openmp","pi.c","-o","pi"]
