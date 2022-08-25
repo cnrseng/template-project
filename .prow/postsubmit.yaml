@@ -5,5 +5,5 @@ postsubmits:
     - ^main$
   spec:
     containers:
-      - image: quay.io/eduardoarango/pi:demo
-        command: ["pi","100"]
+      - image: <CATALOG/IMAGE:TAG>
+        command: <YOUR COMMANDS>

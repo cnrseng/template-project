@@ -3,5 +3,5 @@ presubmits:
   always_run: true
   spec:
     containers:
-    - image: gcc
-      command: ["g++","-openmp","pi.c","-o","pi"]
+      - image: <CATALOG/IMAGE:TAG>
+      command: <YOUR COMMANDS>
