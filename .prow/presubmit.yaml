@@ -4,4 +4,4 @@ presubmits:
   spec:
     containers:
       - image: <CATALOG/IMAGE:TAG>
-      command: <YOUR COMMANDS>
+        command: <YOUR COMMANDS>
